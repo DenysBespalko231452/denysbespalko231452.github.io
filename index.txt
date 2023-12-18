@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Denys Bespalko
+Denys Bespalko
+Data Science and AI Student
 
 Show Contacts
 
 Email
-richard@example.com
+denysbespal@gmail.com
 
 Phone
-+1 (213) 352-2795
++31 6 41 6767 81
 
 Birthday
-June 23, 1982
+July, 1, 2005
 
 Location
-Sacramento, California, USA
+Breda, The Netherlands
 
 # navbar
 
