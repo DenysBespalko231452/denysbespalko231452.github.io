@@ -1425,11 +1425,19 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .testimonials-avatar-box {
-    transform: translate(30px, -30px);
-    border-radius: 20px;
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Adjust to match width for a circle */
+    border-radius: 20px; /* Circle shape */
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    display: flex; /* For centering the image */
+    align-items: center; /* Aligns image vertically */
+    justify-content: center; /* Aligns image horizontally */
   }
 
-  .testimonials-avatar-box img { width: 80px; }
+  .testimonials-avatar-box img {
+    max-width: 75%; /* Ensures image does not exceed container width */
+    height: auto; /* Maintains aspect ratio */
+  }
 
   .testimonials-item-title {
     margin-bottom: 10px;
